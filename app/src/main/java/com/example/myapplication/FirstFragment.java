@@ -18,6 +18,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
+import com.example.myapplication.active.IncomeActive;
 import com.example.myapplication.active.ThridActive;
 
 public class FirstFragment extends Fragment {
@@ -56,6 +57,14 @@ public class FirstFragment extends Fragment {
             public void onClick(View view) {
                 Intent intent = new Intent();
                 intent.setClass(getActivity(), ThridActive.class);
+                startActivity(intent);
+            }
+        });
+        view.findViewById(R.id.button_income).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(getActivity(), IncomeActive.class);
                 startActivity(intent);
             }
         });

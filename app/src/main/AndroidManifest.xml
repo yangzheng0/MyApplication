@@ -24,6 +24,11 @@
             android:label="@string/thrid_active"
             android:theme="@style/Theme.MyApplication.NoActionBar">
         </activity>
+        <activity
+            android:name=".active.IncomeActive"
+            android:label="@string/income_active"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

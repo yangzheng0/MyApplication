@@ -1,9 +1,12 @@
 package com.example.myapplication;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -29,6 +32,9 @@ public class SecondFragment extends Fragment {
             public void onClick(View view) {
                 Toast toast=Toast.makeText(getActivity().getApplicationContext(), "执行onClick方法", Toast.LENGTH_SHORT);
                 toast.show();
+                EditText edit = (EditText)view.findViewById(R.id.editView1);
+                String result = edit.getText().toString();
+                Log.v("result={}",result);
             }
         });
     }

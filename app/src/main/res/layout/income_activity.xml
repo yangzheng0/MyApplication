@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewMoney"
+        android:text="金额："
+        android:textSize="21sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextMoney"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_horizontal"
+        android:hint="请输入金额"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        />
+    <TextView
+        android:id="@+id/textViewTime"
+        android:text="时间："
+        android:textSize="21sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_horizontal"
+        android:hint="请输入时间"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        />
+    <TextView
+        android:id="@+id/textViewRate"
+        android:text="利率："
+        android:textSize="21sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextRate"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_horizontal"
+        android:hint="请输入利率"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewIncome"
+        android:text="收入："
+        android:textSize="21sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/editTextIncome"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_horizontal"
+        android:hint="请输入收入"
+        android:textAlignment="center"
+        android:textSize="21sp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="100dp"
+        />
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="计算"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="150dp"
+        android:onClick="clickAlert"
+        />
+
+</RelativeLayout>

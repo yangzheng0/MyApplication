@@ -20,7 +20,7 @@
         android:layout_marginLeft="60dp" />
 
     <EditText
-        android:id="@+id/textView1"
+        android:id="@+id/editView1"
         android:layout_width="270dp"
         android:layout_height="wrap_content"
         android:background="@null"

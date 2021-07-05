@@ -6,7 +6,9 @@
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">利率计算器</string>
-    <string name="next1">Next11</string>
+    <string name="next1">next1</string>
+    <string name="next3">打电话</string>
+    <string name="next_income">利率计算器1</string>
     <string name="previous">计算</string>
     <string name="next2">Next12</string>
     <string name="notice">通知栏</string>
@@ -14,4 +16,5 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="income_active">收益计算器</string>
 </resources>
