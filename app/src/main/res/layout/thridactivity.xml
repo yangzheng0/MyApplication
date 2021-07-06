@@ -38,9 +38,10 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_margin="20dp"
-        app:background_normalColor="@color/teal_700"
-        app:corner="10dp"
-        android:text="@string/next_income"
-        app:textColor="@color/purple_700"
-        app:textSize="22sp"/>
+        app:background_normalColor="@color/purple_200"
+        app:corner="30dp"
+        app:text="这个按钮"
+        app:textColor="@color/black"
+        app:open_pressed_effect="true"
+        app:textSize="22sp" />
 </LinearLayout>
